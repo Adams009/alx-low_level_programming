@@ -2,7 +2,7 @@
 /**
  * main - this like a room where your program starts
  *
- * Return : Always return 0 (suceess)
+ * Return: Always 0 (suceess)
  */
 int main(void)
 {
