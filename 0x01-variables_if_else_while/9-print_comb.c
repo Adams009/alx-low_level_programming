@@ -7,6 +7,7 @@
 int main(void)
 {
 	int oh;
+
 	for (oh = 0; oh <= 9; oh++)
 	{
 		putchar(oh + '0');
