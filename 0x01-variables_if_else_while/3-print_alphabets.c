@@ -11,14 +11,14 @@ int main(void)
 	char third = 'z';
 	char forth = 'Z';
 
-		while
-			(first <= third);
+		if
+			(first <= third)
 	{
 	putchar(first);
 	first++;
 	}
 		while
-		(second <= forth);
+		(second <= forth)
 	{
 	putchar(second);
 	second++;
