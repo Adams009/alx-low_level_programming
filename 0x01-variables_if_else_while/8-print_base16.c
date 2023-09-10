@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-	int first = 0;
-	int second = 9;
-	char third = 'a';
-	char forth = 'f';
+	char af;
+	int op;
 
-	while (first <= second);
-	putchar(first);
-	first++;
+	for (op = 0; op <= 9; op++)
+	{
+	putchar('0' + op);
+	}
 
-	while (third <= forth);
-	putchar(third);
-	third++;
+	for (af = 'a'; af <= 'f'; af++)
+	{
+	putchar(af);
+	}	
 	putchar('\n');
 	return (0);
 }
