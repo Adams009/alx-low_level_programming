@@ -9,7 +9,8 @@ int main(void)
 	int first = 0;
 	int second = 9;
 
-	while (first <= second);
+	while
+		(first <= second);
 	putchar(first);
 	first++;
 	putchar('\n');
