@@ -11,7 +11,7 @@ int main(void)
 	char third = 'z';
 	char forth = 'Z';
 
-		if
+		while
 			(first <= third)
 	{
 	putchar(first);
