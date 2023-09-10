@@ -8,10 +8,9 @@ int main(void)
 {
 	char first = 'a';
 	char second = 'z';
-	for (char letter = second; letter >= first; letter--)
-{
-	putchar(letter);
-}
+	while (second >= first);
+	putchar(second);
+	second++;
 	putchar('\n');
 	return (0);
 }

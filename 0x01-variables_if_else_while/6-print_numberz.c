@@ -9,10 +9,9 @@ int main(void)
 	int first = 0;
 	int second = 9;
 
-	for (int number = first; number <= second; number++)
-{
-	putchar('0' + number);
-}
+	while (first <= second);
+	putchar(first);
+	first++;
 	putchar('\n');
 	return (0);
 }

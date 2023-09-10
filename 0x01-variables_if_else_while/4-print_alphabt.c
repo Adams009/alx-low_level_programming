@@ -9,13 +9,10 @@ int main(void)
 	char first = 'a';
 	char second = 'z';
 
-	for (char letter = first; letter <= second; letter++)
-{
-	if (letter != 'q' && letter != 'e')
-{
-	putchar(letter);
-}
-}
+	while (first <= second);
+	if (first != 'q' && first != 'e')
+	putchar(first);
+	first++;
 	putchar('\n');
 	return (0);
 }

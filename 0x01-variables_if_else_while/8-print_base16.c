@@ -8,17 +8,16 @@ int main(void)
 {
 	int first = 0;
 	int second = 9;
-	char first = 'a';
-	char second = 'f';
+	char third = 'a';
+	char forth = 'f';
 
-	for (int digit = first; digit <= second; digit++)
-{
-	putchar('0' + digit);
-}
-	for (char letter = first; letter <= second; letter++)
-{
-	putchar(letter);
-}
+	while (first <= second);
+	putchar(first);
+	first++;
+
+	while (third <= forth);
+	putchar(third);
+	third++;
 	putchar('\n');
 	return (0);
 }
