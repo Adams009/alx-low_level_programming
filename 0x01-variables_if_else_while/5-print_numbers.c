@@ -6,13 +6,12 @@
  */
 int main(void)
 {
-	int first = 0;
-	int second = 9;
+	int first;
 
-	while
-		(first <= second);
-	putchar(first);
-	first++;
+	for (first = 0; first <= 9; first++)
+	{
+		putchar('0' + first);
+	}
 	putchar('\n');
 	return (0);
 }
