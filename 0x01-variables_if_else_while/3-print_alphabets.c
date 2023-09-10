@@ -11,12 +11,18 @@ int main(void)
 	char third = 'z';
 	char forth = 'Z';
 
-	while (first <= third);
+		while
+			(first <= third);
+	{
 	putchar(first);
 	first++;
-	while (second <= forth);
+	}
+		while
+		(second <= forth);
+	{
 	putchar(second);
 	second++;
+	}
 	putchar('\n');
 	return (0);
 }
