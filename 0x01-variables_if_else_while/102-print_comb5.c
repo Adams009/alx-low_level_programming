@@ -23,9 +23,8 @@ int main(void)
 	}
 	else
 	{
-		putchar(',');
+	:set 	putchar(',');
 		putchar(' ');
-	
 	}
 	}
 	return (0);
