@@ -9,16 +9,12 @@
 int _islower(int c)
 {
 	char l = c;
-	int clower;
+	int clower = 0;
 
-	if (!(l <= 'a') && (l <='z'))
+	if (l > 'a' && l <='z')
 	{
-		clower = 0;
+		clower = 1;
+	}
 
 		return(clower);
-	}
-	else
-	{
-		return(1);
-	}
 }
