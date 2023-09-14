@@ -6,12 +6,9 @@
  *
  * @b: the second int
  *
- * @add: the resulr of a and b
- *
- * Result: the reult of a and b
+ * Return: the return of (0)
  */
 int add(int a, int b)
-
 {
 
 	int r = a + b;
