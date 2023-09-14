@@ -8,7 +8,7 @@
  */
 int _isalpha(int c)
 {
-	
+
 	char u;
 	char s;
 	int l = 0;
@@ -17,7 +17,8 @@ int _isalpha(int c)
 	{
 		for (s = 'A'; s <= 'Z'; s++)
 		{
-			if (u == c || s == c)
+			if
+				(u == c || s == c)
 
 	{
 		l = 1;
