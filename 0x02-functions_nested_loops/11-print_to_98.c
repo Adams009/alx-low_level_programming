@@ -11,7 +11,7 @@
 
 void print_to_98(int n)
 {
-
+	int k;
 
 	if
 		(n >= 0 && n <= 98)
