@@ -10,17 +10,27 @@ int main(void)
 
 	for (ric = 1; ric <= 100; ric++)
 	{
-	if ((ric % 3) == 0 && (ric % 5) == 0)
-		printf("FizzBuzz");
-	else if ((ric % 3) == 0)
-		printf("Fizz");
-	else if ((ric % 5) == 0)
-		printf("Buzz");
-	else
-		printf("%d", ric);
-
-	if (ric == 100)
-		continue;
-	printf(" ");
+	if (ric % 3 == 0 && ric % 5 != 0)
+	{
+		printf(" Fizz");
 	}
+	else if (ric % 5 == 0 && ric % 3 != 0)
+	{
+		printf(" Buzz");
+	}
+	else if (ric % 3 == 0 && ric % 5 == 0)
+	{
+		printf(" FizzBuzz");
+	}
+	else if (ric == 1)
+	{
+		printf("%d", ric);
+	}
+	else
+	{
+		printf(" %d", ric);
+	}
+	}
+	printf("\n");
+	return (0);
 }
