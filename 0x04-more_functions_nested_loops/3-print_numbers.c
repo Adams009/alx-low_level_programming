@@ -9,9 +9,11 @@ void print_numbers(void)
 	int pri;
 
 	for
-		(pri = 0; pri <= 9; pri++)
+
+	(pri = 0; pri <= 9; pri++)
+
 		{
-			_putchar(pri);
+			_putchar(pri + '0');
 		}
 	_putchar('\n');
 }

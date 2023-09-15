@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * mul(int a, int b) -  a function that multiplies two integers.
+ *mul - a function that multiplies two integers.
  *
  * @a: the first int
  *
