@@ -12,8 +12,9 @@ void print_square(int size)
 	z = 0;
 
 	if (size < 1)
+	{
 		_putchar('\n');
-
+	}
 	while (z < size)
 	{
 		a = 0;
