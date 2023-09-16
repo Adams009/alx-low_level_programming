@@ -10,7 +10,7 @@ int main(void)
 {
 	long a, z;
 	long dig = 612852475143;
-	double sq = sqr(did);
+	double sq = sqrt(dig);
 
 	for (a = 1; a <= sq; a++)
 	{
