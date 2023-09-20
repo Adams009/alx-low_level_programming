@@ -6,7 +6,7 @@
  *
  * @src: the second char
  *
- * return: dest
+ *Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
@@ -23,6 +23,6 @@ char *_strcat(char *dest, char *src)
 		src++;
 	}
 	*dest = '\0';
-	return (orgdst);
+	return (dest);
 
 }
