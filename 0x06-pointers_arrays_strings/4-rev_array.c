@@ -16,6 +16,7 @@ void reverse_array(int *a, int n)
 	while (art < nod)
 	{
 		int new = a[art];
+
 		a[art] = a[nod];
 		a[nod] = new;
 
