@@ -19,7 +19,7 @@ char *cap_string(char *str)
 		}
 		for (a = 0; c[a] != '\0'; a++)
 		{
-			if (c[a] == str[z] && (str[z + 1] >+ 'a' && str[z + 1] <= 'z'))
+			if (c[a] == str[z] && (str[z + 1] >= 'a' && str[z + 1] <= 'z'))
 			{
 				str[z + 1] = str[z + 1] - 32;
 			}
