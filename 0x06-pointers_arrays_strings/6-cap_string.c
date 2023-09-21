@@ -1,38 +1,29 @@
 #include "main.h"
-#include <stdbool.h>
 /**
  * cap_string - function that capitalizes
  *
- *@str : the str
+ * @str: the str
  *
  * Return: str
  */
 char *cap_string(char *str)
 {
-	int desk = 0;
+	int z, a;
+	char c[] = {44, 59, 46, '!', '?', '"', '(', ')', '{', '}', '\t', '\n'};
 
-	while (str[desk])
+	for (z = 0; str[z] != '\0'; z++)
 	{
-		while (!(str[desk] >= 'a' && str[desk] <= 'z'))
-			desk++;
-		if (str[desk - 1] == ' ' ||
-			str[desk - 1] == '\t' ||
-			str[desk - 1] == '\n' ||
-			str[desk - 1] == ',' ||
-			str[desk - 1] == ';' ||
-			str[desk - 1] == '.' ||
-			str[desk - 1] == '!' ||
-			str[desk - 1] == '?' ||
-			str[desk - 1] == '"' ||
-			str[desk - 1] == '(' ||
-			str[desk - 1] == ')' ||
-			str[desk - 1] == '{' ||
-			str[desk - 1] == '}' ||
-			desk == 0)
-
-			str[desk] -= 32;
-
-		desk++;
+		if (z == 0 && str[z] >= 'a' && str[z] <= 'z')
+		{
+			str[z] = str[z] - 32;
+		}
+		for (a = 0; c[a] != '\0'; a++)
+		{
+			if (c[a] == str[z] && (str[z + 1] >+ 'a' && str[z + 1] <= 'z'))
+			{
+				str[z + 1] = str[z + 1] - 32;
+			}
+		}
 	}
-		return (str);
+	return (str);
 }
