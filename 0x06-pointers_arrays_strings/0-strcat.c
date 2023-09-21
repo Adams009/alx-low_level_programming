@@ -10,7 +10,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *orgdst = dest;
+	char *rst = dest;
 
 	while (*dest != '\0')
 	{
@@ -23,6 +23,6 @@ char *_strcat(char *dest, char *src)
 		src++;
 	}
 	*dest = '\0';
-	return (orgdst);
+	return (orst);
 
 }
