@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * rot13 - function that encodes 
+ * rot13 - function that encodes
  *
  * @str: the str
  *
- * REturn: str
+ *Return: *str
  */
 char *rot13(char *str)
 {
