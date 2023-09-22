@@ -20,7 +20,7 @@ char *rot13(char *str)
 		{
 			if (str[a] == hold[z])
 			{
-				str[a] == hold2[z];
+				str[a] = hold2[z];
 				break;
 			}
 		}

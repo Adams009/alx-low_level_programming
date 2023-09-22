@@ -20,5 +20,5 @@ void print_number(int n)
 	{
 		print_number(za / 10);
 	}
-	_putchar(n1 % 10) + '0');
+	_putchar((za % 10) + '0');
 }
