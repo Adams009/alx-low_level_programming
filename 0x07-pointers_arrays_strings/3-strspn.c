@@ -4,7 +4,7 @@
  *  @s: the pointer
  *  @accept: the char accept
  *
- *  return: *s of accept
+ *  Return: bytes in s of accept
  */
 unsigned int _strspn(char *s, char *accept)
 {
