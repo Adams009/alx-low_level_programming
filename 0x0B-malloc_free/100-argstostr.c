@@ -30,7 +30,6 @@ char *argstostr(int ac, char **av)
 	sac = malloc((sizeof(char) * o) + ac + 1);
 
 	p = 0;
-	
 	while (av[p])
 	{
 		while (av[p][q])
