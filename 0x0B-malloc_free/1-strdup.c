@@ -8,15 +8,13 @@
  */
 char *_strdup(char *str)
 {
-	int zac;
-	int sac;
+	int zac = 0, sac = 1;
 	char *sack;
 
-	zac = 0;
-	sac = 1;
 
 	if (str == NULL)
 		return (NULL);
+
 	while (str[sac])
 	{
 		sac++;
@@ -25,11 +23,13 @@ char *_strdup(char *str)
 
 	if (sack == NULL)
 		return (NULL);
+
 	while (zac < sac)
 	{
 		sack[zac] = str[zac];
 		zac++;
 	}
 	sack[zac] = '\0';
+
 	return (sack);
 }
