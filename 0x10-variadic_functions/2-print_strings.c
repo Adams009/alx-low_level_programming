@@ -3,28 +3,28 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * print_strings - prints a string
- * @separator: seperator char
- * @n: number of args
+ * print_strings - print strings
+ * @separator: parameter char
+ * @n: parameter n
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	unsigned int i;
-	va_list stringArgs;
-	char *strArg;
+	unsigned int z;
+	va_list args;
+	char *stag;
 
-	va_start(stringArgs, n);
-	for (i = 0; i < n; i++)
+	va_start(args, n);
+	for (z = 0; z < n; z++)
 	{
-		strArg = va_arg(stringArgs, char *);
+		stag = va_arg(args, char *);
 
-		if (separator != NULL && i > 0)
+		if (separator != NULL && z > 0)
 			printf("%s", separator);
-		if (strArg == NULL)
+		if (stag == NULL)
 			printf("(nil)");
 		else
-			printf("%s", strArg);
+			printf("%s", stag);
 	}
-	va_end(stringArgs);
+	va_end(args);
 	printf("\n");
 }
