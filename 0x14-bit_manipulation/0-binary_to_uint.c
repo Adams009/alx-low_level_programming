@@ -13,7 +13,10 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 
 	z = 0;
-	for (lon = 0; b[lon] != '\0'; lon--, base *= 2)
+	for (lon = 0; b[lon] != '\0'; lon++)
+		;
+
+		for (lon--, base = 1; lon >= 0; lon--, base *= 2)
 	{
 		if (b[lon] != '0' && b[lon] != '1')
 		{
